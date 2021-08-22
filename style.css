@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/image.jpg);
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .3);
+    padding: 60px 60px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, .4) 2px 2px 2px 2px;
+}
+
+h1, h3, p {
+    color: white;
+}
+
+.text {
+    padding: 20px;
+}
+
+input {
+    padding: 20px 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 70%;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+    transition: 0.25s;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+#result {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 30px;
+}
