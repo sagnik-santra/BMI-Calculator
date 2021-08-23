@@ -10,6 +10,9 @@ function bmi() {
     } else if (bmi > 25) {
         document.getElementById("result").innerHTML = "Your BMI is " + total + ", you're currently Overweight. Consume less calories and start exercising";
 
+    } else if (bmi < 7) {
+        document.getElementById("result").innerHTML = "Your BMI is " + total + ", do you think I'm fucking stupid?";
+    
     } else {
         document.getElementById("result").innerHTML = "Your BMI is " + total + ", Well done! You're completely healthy!!!"
     }
