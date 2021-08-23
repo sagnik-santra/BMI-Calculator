@@ -5,10 +5,10 @@ function bmi() {
     let total = bmi;
 
     if (bmi < 18) {
-        document.getElementById("result").innerHTML = "Your BMI is " + total + ", you're currently underweihgt. Eat Helathy and start exercising";
+        document.getElementById("result").innerHTML = "Your BMI is " + total + ", you're currently underweight. Eat Helthy and start exercising";
 
     } else if (bmi > 25) {
-        document.getElementById("result").innerHTML = "Your BMI is " + total + ", you're currently Overweihgt. Consume less calories and start exercising";
+        document.getElementById("result").innerHTML = "Your BMI is " + total + ", you're currently Overweight. Consume less calories and start exercising";
 
     } else {
         document.getElementById("result").innerHTML = "Your BMI is " + total + ", Well done! You're completely healthy!!!"
