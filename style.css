@@ -74,6 +74,9 @@ h1 {
 @media (max-width: 1230px) {
     #height {
         margin-top: 20px;
+    } 
+        button {
+        margin-top: 20px;
     }
 }
 
